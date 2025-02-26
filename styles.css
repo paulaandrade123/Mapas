@@ -1,0 +1,32 @@
+/* Estilo general para la página */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.map-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.map {
+    flex: 1;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slider {
+    width: 5px;
+    background-color: #000;
+    cursor: ew-resize;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+}
